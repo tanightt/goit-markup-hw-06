@@ -614,8 +614,22 @@ a {
     align-items: center;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop-button:hover,
+.backdrop-button:focus,
+.backdrop-button:active {
+    background-color: var(--text-selection);
 }
 
 .backdrop-icon {
     fill: var(--main-color);
+}
+
+.backdrop-button:hover .backdrop-icon,
+.backdrop-button:focus .backdrop-icon,
+.backdrop-button:active .backdrop-icon {
+    fill: var(--backgrount-color);
 }
