@@ -513,26 +513,34 @@ a {
     fill: var(--accent-color);
 }
 
-.footer-form {
-    display: inline-block;
-    margin-right: 24px;
+.subscribe-form {
+    display: flex;
+    align-items: center;
 }
 
-.footer-label {
+.footer-form {
+    margin-right: 24px;
 }
 
 .footer-input {
     width: 264px;
-    height: 38px;
+    height: 40px;
     padding-left: 16px;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: var(--main-color);
+    color: var(--backgrount-color);
+}
+
+.footer-input::placeholder {
+    color: var(--backgrount-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
 }
 
 .footer-btn {
-    display: inline-block;
     position: relative;
 }
 
