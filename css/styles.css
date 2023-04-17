@@ -633,3 +633,15 @@ a {
 .backdrop-button:active .backdrop-icon {
     fill: var(--backgrount-color);
 }
+
+.modal-container {
+    margin: 0 24px;
+    padding: 72px 0 24px 0;
+}
+
+.modal-title {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: var(--main-color);
+    text-align: center;
+}
