@@ -625,12 +625,20 @@
               rows="10"
             ></textarea>
           </div>
-          <label for="" class="form-checkbox">
-            <input type="checkbox" class="checkbox-input" />
-            <span class="text-accept"
-              >I accept the terms and conditions of the
-              <a href="" class="form-link">Privacy Policy</a>
+          <label for="user-check" class="label-checkbox">
+            <input
+              type="checkbox"
+              class="checkbox-input visually-hidden"
+              name="user-check"
+              id="user-check"
+            />
+            <span class="icon-box">
+              <svg class="icon-check" width="16" height="16">
+                <use href="./images/icon.svg#icon-property"></use>
+              </svg>
             </span>
+            I accept the terms and conditions of the
+            <a href="" class="form-link">Privacy Policy</a>
           </label>
         </form>
         <button type="submit" class="send-button">Send</button>
