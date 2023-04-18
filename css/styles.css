@@ -589,6 +589,7 @@ a {
     transform: translate(-50%,-50%);
     min-width: 408px;
     min-height: 576px;
+    padding: 0 24px;
     border-radius: 4px;
     background-color:#FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -603,13 +604,11 @@ a {
 }
 
 .backdrop-button {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    display: flex;
     width: 24px;
     height: 24px;
+    margin: 24px 0 24px auto;
     border-radius: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E7E9FC;
@@ -634,14 +633,22 @@ a {
     fill: var(--backgrount-color);
 }
 
-.modal-container {
-    margin: 0 24px;
-    padding: 72px 0 24px 0;
-}
-
 .modal-title {
     margin-bottom: 16px;
     font-size: 16px;
     color: var(--main-color);
     text-align: center;
+    justify-content: center;
+}
+
+.modal-label {
+    display: block;
+}
+
+.modal-input {
+    width: 360px;
+    height: 40px;
+    padding: 20px 0;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
 }
