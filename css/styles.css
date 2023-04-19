@@ -775,7 +775,7 @@ a {
 }
 
 .checkbox-input:checked + .icon-box {
-    border: var(--text-selection);
+    border: transparent;
     background-color: var(--text-selection);
 }
 
