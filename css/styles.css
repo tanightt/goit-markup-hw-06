@@ -662,7 +662,7 @@ a {
 }
 
 .modal-input {
-    min-width: 360px;
+    width: 100%;
     height: 40px;
     padding-left: 38px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -700,7 +700,7 @@ a {
 }
 
 .comment-input {
-    min-width: 360px;
+    width: 100%;
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
